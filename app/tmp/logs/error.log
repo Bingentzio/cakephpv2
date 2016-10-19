@@ -1,0 +1,41 @@
+2016-10-19 17:01:19 Error: Fatal Error (4): syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 9]
+2016-10-19 17:01:19 Error: [FatalErrorException] syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cakephpv2/Meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-19 17:01:43 Error: Fatal Error (4): syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 9]
+2016-10-19 17:01:43 Error: [FatalErrorException] syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cakephpv2/meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-19 17:21:23 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\cakephpv2\app\View\Meseros\index.ctp, line 18]
+2016-10-19 17:21:23 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /cakephpv2/meseros/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-19 17:22:16 Error: [MissingActionException] Action MeserosController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'ver',
+)
+Request URL: /cakephpv2/meseros/ver
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
