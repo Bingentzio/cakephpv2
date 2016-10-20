@@ -7,7 +7,7 @@ class MeserosController extends AppController
 
     public function index()
     {
-        $this->set('meseros', $this->Mesero->find('all'));
+        $this->set('meseros', $this->Mesero->find('all', array('order'=>'Mesero.id ASC') ));
     }
 
     public function ver($id = null)

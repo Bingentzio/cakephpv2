@@ -202,3 +202,93 @@ Stack Trace:
 #3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-10-20 16:37:55 Error: Fatal Error (4): syntax error, unexpected 'var' (T_VAR) in [C:\xampp\htdocs\cakephpv2\app\View\Meseros\index.ctp, line 13]
+2016-10-20 16:37:55 Error: [FatalErrorException] syntax error, unexpected 'var' (T_VAR)
+Request URL: /cakephpv2/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-20 16:38:56 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\xampp\htdocs\cakephpv2\app\View\Meseros\index.ctp, line 25]
+2016-10-20 16:38:56 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /cakephpv2/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-20 16:38:57 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\xampp\htdocs\cakephpv2\app\View\Meseros\index.ctp, line 25]
+2016-10-20 16:38:57 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /cakephpv2/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-20 16:38:57 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\xampp\htdocs\cakephpv2\app\View\Meseros\index.ctp, line 25]
+2016-10-20 16:38:57 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /cakephpv2/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-20 16:40:45 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\xampp\htdocs\cakephpv2\app\View\Meseros\index.ctp, line 25]
+2016-10-20 16:40:45 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /cakephpv2/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-20 16:40:45 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\xampp\htdocs\cakephpv2\app\View\Meseros\index.ctp, line 25]
+2016-10-20 16:40:45 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /cakephpv2/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-20 16:40:46 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\xampp\htdocs\cakephpv2\app\View\Meseros\index.ctp, line 25]
+2016-10-20 16:40:46 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /cakephpv2/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-20 16:40:46 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\xampp\htdocs\cakephpv2\app\View\Meseros\index.ctp, line 25]
+2016-10-20 16:40:46 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /cakephpv2/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-20 16:40:46 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\xampp\htdocs\cakephpv2\app\View\Meseros\index.ctp, line 25]
+2016-10-20 16:40:46 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /cakephpv2/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

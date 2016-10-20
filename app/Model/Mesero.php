@@ -34,7 +34,7 @@ class Mesero extends AppModel
                 'className' =>'Mesa',
                 'foreignKey' => 'mesero_id',
                 'conditions' =>'',
-                'order' => 'Mesa.serie DESC',
+                'order' => 'Mesa.serie ASC',
                 'depend'=> false
             )
     );
