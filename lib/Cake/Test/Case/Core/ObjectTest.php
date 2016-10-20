@@ -16,7 +16,6 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-App::uses('CakeObject', 'Core');
 App::uses('Object', 'Core');
 App::uses('Router', 'Routing');
 App::uses('Controller', 'Controller');
@@ -74,7 +73,7 @@ class RequestActionController extends Controller {
 /**
  * normal_request_action method
  *
- * @return string Hello World!
+ * @return void
  */
 	public function normal_request_action() {
 		return 'Hello World';
@@ -83,7 +82,7 @@ class RequestActionController extends Controller {
 /**
  * returns $this->here
  *
- * @return string $this->here.
+ * @return void
  */
 	public function return_here() {
 		return $this->here;
@@ -92,7 +91,7 @@ class RequestActionController extends Controller {
 /**
  * paginate_request_action method
  *
- * @return true
+ * @return void
  */
 	public function paginate_request_action() {
 		$this->paginate();
@@ -129,11 +128,11 @@ class RequestActionController extends Controller {
 }
 
 /**
- * TestCakeObject class
+ * TestObject class
  *
  * @package       Cake.Test.Case.Core
  */
-class TestCakeObject extends CakeObject {
+class TestObject extends Object {
 
 /**
  * firstName property
@@ -252,9 +251,8 @@ class TestCakeObject extends CakeObject {
 	}
 
 /**
- * Set properties.
+ * undocumented function
  *
- * @param array $properties The $properties.
  * @return void
  */
 	public function set($properties = array()) {
@@ -275,7 +273,7 @@ class ObjectTestModel extends CakeTestModel {
 }
 
 /**
- * CakeObject Test class
+ * Object Test class
  *
  * @package       Cake.Test.Case.Core
  */
@@ -295,7 +293,7 @@ class ObjectTest extends CakeTestCase {
  */
 	public function setUp() {
 		parent::setUp();
-		$this->object = new TestCakeObject();
+		$this->object = new TestObject();
 	}
 
 /**
@@ -366,7 +364,7 @@ class ObjectTest extends CakeTestCase {
  */
 	public function testToString() {
 		$result = strtolower($this->object->toString());
-		$this->assertEquals('testcakeobject', $result);
+		$this->assertEquals('testobject', $result);
 	}
 
 /**
@@ -395,7 +393,7 @@ class ObjectTest extends CakeTestCase {
 		$expected[] = array('crazyMethod' => array(1, 2, 3, 4, 5, 6, 7));
 		$this->assertSame($expected, $this->object->methodCalls);
 
-		$this->object = new TestCakeObject();
+		$this->object = new TestObject();
 		$this->assertSame($this->object->methodCalls, array());
 
 		$this->object->dispatchMethod('emptyMethod');
@@ -677,16 +675,5 @@ class ObjectTest extends CakeTestCase {
 			array('data' => $data)
 		);
 		$this->assertEquals($data, $result);
-	}
-
-/**
- * Test backward compatibility
- *
- * @return voind
- */
-	public function testBackwardCompatibility() {
-		$this->skipIf(version_compare(PHP_VERSION, '7.0.0', '>='));
-
-		$this->assertInstanceOf('Object', new ObjectTestModel);
 	}
 }

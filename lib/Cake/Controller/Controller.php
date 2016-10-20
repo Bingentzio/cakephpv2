@@ -52,10 +52,9 @@ App::uses('CakeEventManager', 'Event');
  * @property      RequestHandlerComponent $RequestHandler
  * @property      SecurityComponent $Security
  * @property      SessionComponent $Session
- * @property      FlashComponent $Flash
  * @link          http://book.cakephp.org/2.0/en/controllers.html
  */
-class Controller extends CakeObject implements CakeEventListener {
+class Controller extends Object implements CakeEventListener {
 
 /**
  * The name of this controller. Controller names are plural, named after the model they manipulate.
@@ -190,7 +189,7 @@ class Controller extends CakeObject implements CakeEventListener {
  * @var array
  * @link http://book.cakephp.org/2.0/en/controllers/components.html
  */
-	public $components = array('Session', 'Flash');
+	public $components = array('Session');
 
 /**
  * The name of the View class this controller sends output to.
@@ -228,12 +227,12 @@ class Controller extends CakeObject implements CakeEventListener {
  *
  * Example:
  *
- * ```
+ * {{{
  * public $cacheAction = array(
  *		'view/23/' => 21600,
  *		'recalled/' => 86400
  *	);
- * ```
+ * }}}
  *
  * $cacheAction can also be set to a strtotime() compatible string. This
  * marks all the actions in the controller for view caching.
@@ -515,12 +514,12 @@ class Controller extends CakeObject implements CakeEventListener {
 			!$method->isPublic() ||
 			!in_array($method->name, $this->methods)
 		);
-		$prefixes = array_map('strtolower', Router::prefixes());
+		$prefixes = Router::prefixes();
 
 		if (!$privateAction && !empty($prefixes)) {
 			if (empty($request->params['prefix']) && strpos($request->params['action'], '_') > 0) {
 				list($prefix) = explode('_', $request->params['action']);
-				$privateAction = in_array(strtolower($prefix), $prefixes);
+				$privateAction = in_array($prefix, $prefixes);
 			}
 		}
 		return $privateAction;
@@ -612,7 +611,7 @@ class Controller extends CakeObject implements CakeEventListener {
 
 /**
  * Returns a list of all events that will fire in the controller during its lifecycle.
- * You can override this function to add your own listener callbacks
+ * You can override this function to add you own listener callbacks
  *
  * @return array
  */
@@ -670,8 +669,6 @@ class Controller extends CakeObject implements CakeEventListener {
  * - triggers Component `startup` methods.
  *
  * @return void
- * @triggers Controller.initialize $this
- * @triggers Controller.startup $this
  */
 	public function startupProcess() {
 		$this->getEventManager()->dispatch(new CakeEvent('Controller.initialize', $this));
@@ -686,7 +683,6 @@ class Controller extends CakeObject implements CakeEventListener {
  * - calls the Controller's `afterFilter` method.
  *
  * @return void
- * @triggers Controller.shutdown $this
  */
 	public function shutdownProcess() {
 		$this->getEventManager()->dispatch(new CakeEvent('Controller.shutdown', $this));
@@ -709,7 +705,7 @@ class Controller extends CakeObject implements CakeEventListener {
  *
  * @return array Associative array of the HTTP codes as keys, and the message
  *    strings as values, or null of the given $code does not exist.
- * @deprecated 3.0.0 Since 2.4. Will be removed in 3.0. Use CakeResponse::httpCodes().
+ * @deprecated Since 2.4. Will be removed in 3.0. Use CakeResponse::httpCodes().
  */
 	public function httpCodes($code = null) {
 		return $this->response->httpCodes($code);
@@ -752,10 +748,9 @@ class Controller extends CakeObject implements CakeEventListener {
  *
  * @param string|array $url A string or array-based URL pointing to another location within the app,
  *     or an absolute URL
- * @param int|array|null $status HTTP status code (eg: 301). Defaults to 302 when null is passed.
+ * @param int $status Optional HTTP status code (eg: 404)
  * @param bool $exit If true, exit() will be called after the redirect
- * @return \Cake\Network\Response|null
- * @triggers Controller.beforeRedirect $this, array($url, $status, $exit)
+ * @return void
  * @link http://book.cakephp.org/2.0/en/controllers.html#Controller::redirect
  */
 	public function redirect($url, $status = null, $exit = true) {
@@ -770,7 +765,7 @@ class Controller extends CakeObject implements CakeEventListener {
 		$this->getEventManager()->dispatch($event);
 
 		if ($event->isStopped()) {
-			return null;
+			return;
 		}
 		$response = $event->result;
 		extract($this->_parseBeforeRedirect($response, $url, $status, $exit), EXTR_OVERWRITE);
@@ -786,17 +781,14 @@ class Controller extends CakeObject implements CakeEventListener {
 			}
 		}
 
-		if ($status === null) {
-			$status = 302;
+		if ($status) {
+			$this->response->statusCode($status);
 		}
-		$this->response->statusCode($status);
 
 		if ($exit) {
 			$this->response->send();
 			$this->_stop();
 		}
-
-		return $this->response;
 	}
 
 /**
@@ -828,7 +820,7 @@ class Controller extends CakeObject implements CakeEventListener {
  *
  * @param string $status The header message that is being set.
  * @return void
- * @deprecated 3.0.0 Will be removed in 3.0. Use CakeResponse::header().
+ * @deprecated Will be removed in 3.0. Use CakeResponse::header().
  */
 	public function header($status) {
 		$this->response->header($status);
@@ -861,10 +853,10 @@ class Controller extends CakeObject implements CakeEventListener {
  *
  * Examples:
  *
- * ```
+ * {{{
  * setAction('another_action');
  * setAction('action_with_parameters', $parameter1);
- * ```
+ * }}}
  *
  * @param string $action The new action to be 'redirected' to.
  *   Any other parameters passed to this method will be passed as parameters to the new action.
@@ -882,7 +874,7 @@ class Controller extends CakeObject implements CakeEventListener {
  * Returns number of errors in a submitted FORM.
  *
  * @return int Number of errors
- * @deprecated 3.0.0 This method will be removed in 3.0
+ * @deprecated This method will be removed in 3.0
  */
 	public function validate() {
 		$args = func_get_args();
@@ -901,7 +893,7 @@ class Controller extends CakeObject implements CakeEventListener {
  * `$errors = $this->validateErrors($this->Article, $this->User);`
  *
  * @return array Validation errors, or false if none
- * @deprecated 3.0.0 This method will be removed in 3.0
+ * @deprecated This method will be removed in 3.0
  */
 	public function validateErrors() {
 		$objects = func_get_args();
@@ -928,7 +920,6 @@ class Controller extends CakeObject implements CakeEventListener {
  * @param string $view View to use for rendering
  * @param string $layout Layout to use
  * @return CakeResponse A response object containing the rendered view.
- * @triggers Controller.beforeRender $this
  * @link http://book.cakephp.org/2.0/en/controllers.html#Controller::render
  */
 	public function render($view = null, $layout = null) {
@@ -978,7 +969,7 @@ class Controller extends CakeObject implements CakeEventListener {
 		}
 
 		$referer = $this->request->referer($local);
-		if ($referer === '/' && $default && $default !== $referer) {
+		if ($referer === '/' && $default) {
 			return Router::url($default, !$local);
 		}
 		return $referer;
@@ -989,7 +980,7 @@ class Controller extends CakeObject implements CakeEventListener {
  *
  * @return void
  * @link http://book.cakephp.org/2.0/en/controllers.html#Controller::disableCache
- * @deprecated 3.0.0 Will be removed in 3.0. Use CakeResponse::disableCache().
+ * @deprecated Will be removed in 3.0. Use CakeResponse::disableCache().
  */
 	public function disableCache() {
 		$this->response->disableCache();
@@ -1006,14 +997,14 @@ class Controller extends CakeObject implements CakeEventListener {
  * @param string $layout Layout you want to use, defaults to 'flash'
  * @return void
  * @link http://book.cakephp.org/2.0/en/controllers.html#Controller::flash
- * @deprecated 3.0.0 Will be removed in 3.0. Use Flash::set() with version 2.7+ or Session::setFlash() prior to 2.7.
+ * @deprecated Will be removed in 3.0. Use Session::setFlash().
  */
 	public function flash($message, $url, $pause = 1, $layout = 'flash') {
 		$this->autoRender = false;
 		$this->set('url', Router::url($url));
 		$this->set('message', $message);
 		$this->set('pause', $pause);
-		$this->set('pageTitle', $message);
+		$this->set('page_title', $message);
 		$this->render(false, $layout);
 	}
 
@@ -1026,8 +1017,8 @@ class Controller extends CakeObject implements CakeEventListener {
  * @param string $bool SQL boolean operator: AND, OR, XOR, etc.
  * @param bool $exclusive If true, and $op is an array, fields not included in $op will not be
  *        included in the returned conditions
- * @return array|null An array of model conditions
- * @deprecated 3.0.0 Will be removed in 3.0.
+ * @return array An array of model conditions
+ * @deprecated Will be removed in 3.0.
  */
 	public function postConditions($data = array(), $op = null, $bool = 'AND', $exclusive = false) {
 		if (!is_array($data) || empty($data)) {
@@ -1157,7 +1148,7 @@ class Controller extends CakeObject implements CakeEventListener {
  * @param string $method Method name.
  * @return bool
  * @see Controller::beforeScaffold()
- * @deprecated 3.0.0 Will be removed in 3.0.
+ * @deprecated Will be removed in 3.0.
  */
 	protected function _beforeScaffold($method) {
 		return $this->beforeScaffold($method);
@@ -1180,7 +1171,7 @@ class Controller extends CakeObject implements CakeEventListener {
  * @param string $method Method name.
  * @return bool
  * @see Controller::afterScaffoldSave()
- * @deprecated 3.0.0 Will be removed in 3.0.
+ * @deprecated Will be removed in 3.0.
  */
 	protected function _afterScaffoldSave($method) {
 		return $this->afterScaffoldSave($method);
@@ -1203,7 +1194,7 @@ class Controller extends CakeObject implements CakeEventListener {
  * @param string $method Method name.
  * @return bool
  * @see Controller::afterScaffoldSaveError()
- * @deprecated 3.0.0 Will be removed in 3.0.
+ * @deprecated Will be removed in 3.0.
  */
 	protected function _afterScaffoldSaveError($method) {
 		return $this->afterScaffoldSaveError($method);
@@ -1228,7 +1219,7 @@ class Controller extends CakeObject implements CakeEventListener {
  * @param string $method Method name.
  * @return bool
  * @see Controller::scaffoldError()
- * @deprecated 3.0.0 Will be removed in 3.0.
+ * @deprecated Will be removed in 3.0.
  */
 	protected function _scaffoldError($method) {
 		return $this->scaffoldError($method);
