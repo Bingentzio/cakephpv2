@@ -10,7 +10,8 @@ class Mesero extends AppModel
                 'unique' => array(
                         'rule' => 'isUnique',
                         'message' => 'El DNI ya se encuentra en nuestra base de datos'
-                    ),
+                    )
+                ),
         'nombre' => array(
                 'rule' => 'notBlank'
         ),

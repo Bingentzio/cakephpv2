@@ -127,3 +127,58 @@ Stack Trace:
 #3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-10-20 12:38:50 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\cakephpv2\app\Model\Mesero.php, line 29]
+2016-10-20 12:38:50 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 29, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 29, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-20 12:39:18 Error: Fatal Error (4): syntax error, unexpected ''nombre'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\cakephpv2\app\Model\Mesero.php, line 15]
+2016-10-20 12:39:18 Error: [FatalErrorException] syntax error, unexpected ''nombre'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-20 12:44:07 Error: [MissingHelperException] Helper class TimerHelper could not be found.
+Exception Attributes: array (
+  'class' => 'TimerHelper',
+  'plugin' => false,
+)
+Request URL: /cakephpv2/meseros/ver/15
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\View\View.php(907): HelperCollection->load('Timer', Array)
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Controller\Controller.php(1250): View->__construct(Object(MeserosController))
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Controller\Controller.php(949): Controller->_getViewObject()
+#4 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-10-20 12:45:17 Error: Fatal Error (4): syntax error, unexpected '$mesero' (T_VARIABLE), expecting ',' or ';' in [C:\xampp\htdocs\cakephpv2\app\View\Meseros\ver.ctp, line 5]
+2016-10-20 12:45:17 Error: [FatalErrorException] syntax error, unexpected '$mesero' (T_VARIABLE), expecting ',' or ';'
+Request URL: /cakephpv2/meseros/ver/15
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-20 12:45:59 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\cakephpv2\app\View\Meseros\ver.ctp, line 5]
+2016-10-20 12:45:59 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephpv2/meseros/ver/15
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
