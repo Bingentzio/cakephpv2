@@ -1,4 +1,4 @@
-<h2>Editar Mesero</h2>
+<h2>Editar mesero</h2>
 
 <?php echo $this->Form->create('Mesero'); ?>
 <?php echo $this->Form->input('dni'); ?>
