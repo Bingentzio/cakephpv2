@@ -39,3 +39,22 @@ Stack Trace:
 #1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
 #2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-10-20 08:54:31 Error: [MissingControllerException] Controller class MeseroController could not be found.
+Exception Attributes: array (
+  'class' => 'MeseroController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/mesero
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-20 09:57:16 Error: Fatal Error (1): Unsupported operand types in [C:\xampp\htdocs\cakephpv2\lib\Cake\Controller\Component\FlashComponent.php, line 72]
+2016-10-20 09:57:16 Error: [FatalErrorException] Unsupported operand types
+Request URL: /cakephpv2/meseros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\xampp\\htdocs...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\xampp\\htdocs...', 72, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\xampp\\htdocs...', 72, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
