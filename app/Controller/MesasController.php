@@ -1,14 +1,23 @@
 <?php
 class MesasController extends AppController
 {
-    public $helpers = array('Html','Form','Time');
-    public $components = array('Flash');
+    public $helpers = array('Html','Form','Time','Js');
+    public $components = array('Flash','RequestHandler');
 
-    public function index()
-    {
-        $this->set('mesas', $this->Mesa->find('all'));
-    }
-
+    public $paginate = array(
+          'limit' => 6,
+          'order' => array(
+              'Mesa.serie' => 'asc'
+          )
+      );
+      public function index()
+      {
+          $this->Mesa->recursive = 0;
+          $this->paginate['Mesa']['limit'] =6;
+          $this->paginate['Mesa']['order'] = array('Mesa.serie' => 'asc');
+      //    $this->set('meseros', $this->Mesero->find('all') );
+          $this->set('mesas', $this->paginate());
+      }
     public function nuevo()
     {
         if($this->request->is('post'))

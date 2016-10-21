@@ -1499,3 +1499,663 @@ Request URL: /cakephpv2/css/style.css
 Stack Trace:
 #0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-10-21 12:37:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 12:43:49 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 17]
+2016-10-21 12:43:49 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 12:43:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 12:44:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:04:02 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 20]
+2016-10-21 13:04:02 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:04:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:04:41 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 20]
+2016-10-21 13:04:41 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:04:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:04:42 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 20]
+2016-10-21 13:04:42 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:04:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:09:46 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 20]
+2016-10-21 13:09:46 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:09:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:09:47 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 20]
+2016-10-21 13:09:47 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:09:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:09:48 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 20]
+2016-10-21 13:09:48 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:09:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:11:04 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 21]
+2016-10-21 13:11:04 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:11:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:11:05 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 21]
+2016-10-21 13:11:05 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:11:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:11:36 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 21]
+2016-10-21 13:11:36 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:11:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:12:08 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 21]
+2016-10-21 13:12:08 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:12:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:12:09 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 21]
+2016-10-21 13:12:09 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:12:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:12:10 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 21]
+2016-10-21 13:12:10 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:12:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:12:10 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 21]
+2016-10-21 13:12:10 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:12:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:12:11 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 21]
+2016-10-21 13:12:11 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:12:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:12:11 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 21]
+2016-10-21 13:12:11 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:12:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:15:08 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 20]
+2016-10-21 13:15:08 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:15:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:15:09 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 20]
+2016-10-21 13:15:09 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:15:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:15:10 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 20]
+2016-10-21 13:15:10 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:15:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:15:10 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 20]
+2016-10-21 13:15:10 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:15:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:15:11 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 20]
+2016-10-21 13:15:11 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephpv2/meseros
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:15:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:15:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:16:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:18:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:18:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:19:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 13:38:13 Error: [MissingActionException] Action MesasController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'MesasController',
+  'action' => 'view',
+)
+Request URL: /cakephpv2/mesas/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MesasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-10-21 13:38:25 Error: [MissingActionException] Action MeserosController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'view',
+)
+Request URL: /cakephpv2/meseros/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-10-21 13:39:58 Error: Fatal Error (1): Call to a member function exists() on null in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 25]
+2016-10-21 13:39:58 Error: [FatalErrorException] Call to a member function exists() on null
+Request URL: /cakephpv2/meseros/ver/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:40:14 Error: Fatal Error (1): Call to a member function exists() on null in [C:\xampp\htdocs\cakephpv2\app\Controller\MeserosController.php, line 25]
+2016-10-21 13:40:14 Error: [FatalErrorException] Call to a member function exists() on null
+Request URL: /cakephpv2/meseros/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-10-21 13:57:18 Error: [MissingActionException] Action MeserosController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'view',
+)
+Request URL: /cakephpv2/meseros/view/3
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-10-21 13:57:36 Error: [MissingActionException] Action MeserosController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'MeserosController',
+  'action' => 'view',
+)
+Request URL: /cakephpv2/meseros/view/3
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeserosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-10-21 13:57:40 Error: [MissingActionException] Action MesasController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MesasController',
+  'action' => 'ver',
+)
+Request URL: /cakephpv2/mesas/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MesasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-10-21 13:58:07 Error: [MissingActionException] Action MesasController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MesasController',
+  'action' => 'ver',
+)
+Request URL: /cakephpv2/mesas/ver/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MesasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-10-21 13:58:51 Error: [MissingActionException] Action MesasController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MesasController',
+  'action' => 'ver',
+)
+Request URL: /cakephpv2/mesas/ver/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MesasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-10-21 13:58:56 Error: [MissingActionException] Action MesasController::ver() could not be found.
+Exception Attributes: array (
+  'controller' => 'MesasController',
+  'action' => 'ver',
+)
+Request URL: /cakephpv2/mesas/ver/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MesasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-10-21 14:05:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 14:05:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 14:15:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 14:15:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 14:15:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 14:15:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 14:15:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 14:15:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 14:19:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-21 14:19:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

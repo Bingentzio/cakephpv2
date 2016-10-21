@@ -16,3 +16,15 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+
+.error-message{
+    color:red;
+}
+
+.activo{
+    color:orange;
+}
+
+.oculto{
+    display: none;
+}
