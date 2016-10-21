@@ -23,8 +23,8 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mesas<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><?php echo $this->Html->link('Lista Meseros', array('controller'=> 'mesas', 'action'=>'index')) ?></a></li>
-            <li><?php echo $this->Html->link('Nuevo Mesero', array('controller'=> 'mesas', 'action'=>'nuevo')) ?></a></li>
+            <li><?php echo $this->Html->link('Lista Mesas', array('controller'=> 'mesas', 'action'=>'index')) ?></a></li>
+            <li><?php echo $this->Html->link('Nueva Mesa', array('controller'=> 'mesas', 'action'=>'nuevo')) ?></a></li>
           </ul>
         </li>
         <li><a href="#about">About</a></li>
