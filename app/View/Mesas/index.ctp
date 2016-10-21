@@ -21,7 +21,7 @@
             <td><?php echo $this->Html->link($mesa['Mesero']['nombre'].' '.$mesa['Mesero']['apellido'],
                 array('controller' => 'meseros', 'action'=> 'ver', $mesa['Mesero']['id'])) ?></td>
             <td><?php echo $this->Html->link('Editar', array('controller' => 'mesas','action' => 'editar', $mesa['Mesa']['id'])); ?> |
-                <?php echo $this->Form->postLink('Eliminar', array('controller'=>'meseros', 'action' =>'eliminar', $mesa['Mesa']['id']),
+                <?php echo $this->Form->postLink('Eliminar', array('controller'=>'mesas', 'action' =>'eliminar', $mesa['Mesa']['id']),
                 array('confirm' => 'Eliminar a '.$mesa['Mesa']['serie'].'?') ); ?>
             </td>
         </tr>

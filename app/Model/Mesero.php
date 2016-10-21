@@ -7,7 +7,7 @@ class Mesero extends AppModel
     public $validate = array(
         'dni' => array(
                 'notEmpty' => array(
-                        'rule' => 'notEmpty'
+                        'rule' => 'notBlank'
                     ),
                 'unique' => array(
                         'rule' => 'isUnique',

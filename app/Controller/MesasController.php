@@ -24,5 +24,48 @@ class MesasController extends AppController
         $meseros = $this->Mesa->Mesero->find('list', array('fields' => array('id','nombre_completo')));
         $this->set('meseros',$meseros);
     }
+
+    public function editar($id = null)
+    {
+        if (!$id)
+        {
+            throw new NotFoundException('Datos Invalidos');
+        }
+        $mesa = $this->Mesa->findById($id);
+
+        if (!$mesa)
+        {
+            throw new NotFoundException('La mesa no ha sido encontrada');
+        }
+        if ($this->request->is(array('post', 'put')))
+        {
+            $this->Mesa->id = $id;
+            if($this->Mesa->save($this->request->data))
+            {
+                $this->Flash->Success('La mesa ha sido modificada');
+                return $this->redirect(array('action'=>'index'));
+            }
+            $this->Flash->Error('El registro no pudo ser modificado');
+        }
+        if(!$this->request->data)
+        {
+            $this->request->data = $mesa;
+        }
+        $meseros = $this->Mesa->Mesero->find('list', array('fields' => array('id','nombre_completo')));
+        $this->set('meseros',$meseros);
+    }
+
+    public function eliminar($id)
+    {
+        if($this->request->is('get'))
+        {
+            throw new MethodNotAllowedException('INCORRECTO');
+        }
+        if($this->Mesa->delete($id))
+        {
+            $this->Flash->success('La mesa ha sido eliminada');
+            return $this->redirect(array('action' => 'index'));
+        }
+    }
 }
 ?>
