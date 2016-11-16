@@ -1,92 +1,118 @@
 <?php
+App::uses('AppController', 'Controller');
+/**
+ * Meseros Controller
+ *
+ * @property Mesero $Mesero
+ * @property PaginatorComponent $Paginator
+ */
+class MeserosController extends AppController {
 
-class MeserosController extends AppController
-{
-    public $helpers = array('Html','Form','Time','Js');
-    public $components = array('Flash','RequestHandler');
+/**
+ * Components
+ *
+ * @var array
+ */
+	public $components = array('Session', 'RequestHandler');
+	public $helpers = array('Html', 'Form', 'Time', 'Js');
 
     public $paginate = array(
-          'limit' => 6,
-          'order' => array(
-              'Mesero.nombre' => 'asc'
-          )
-      );
+        'limit' => 3,
+        'order' => array(
+            'Mesero.id' => 'asc'
+        )
+    );
 
-    public function index()
-    {
-        $this->Mesero->recursive = 0;
-        $this->paginate['Mesero']['limit'] =6;
-        $this->paginate['Mesero']['order'] = array('Mesero.nombre' => 'asc');
-    //    $this->set('meseros', $this->Mesero->find('all') );
-        $this->set('meseros', $this->paginate());
-    }
+/**
+ * index method
+ *
+ * @return void
+ */
+	public function index() {
 
-    public function ver($id = null)
-    {
-        if (!$id) {
-          throw new NotFoundException('Datos Invalidos');
-        }
-        $mesero = $this->Mesero->findById($id);
+		$this->Mesero->recursive = 0;
 
-        if (!$mesero) {
-          throw new NotFoundException('El mesero no existe');
-        }
-        $this->set('mesero',$mesero);
-    }
+		$this->paginate['Mesero']['limit'] = 3;
+		//$this->paginate['Mesero']['conditions'] = array('Mesero.dni' => "34343");
+		$this->paginate['Mesero']['order'] = array('Mesero.id' => 'asc');
+ 		//$this->Paginator->settings = $this->paginate;
+		$this->set('meseros', $this->paginate());
+	}
 
-    public function nuevo()
-    {
-        if ($this->request->is('post'))
-        {
-            $this->Mesero->create();
-            if ($this->Mesero->save($this->request->data))
-            {
-                $this->Flash->success('El mesero ha sido creado');
-                return $this->redirect(array('action'=> 'index'));
-            }
-            $this->Flash->error('No se pudo crear el mesero');
-        }
-    }
+/**
+ * view method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function view($id = null) {
+		if (!$this->Mesero->exists($id)) {
+			throw new NotFoundException(__('Invalid mesero'));
+		}
+		$options = array('conditions' => array('Mesero.' . $this->Mesero->primaryKey => $id));
+		$this->set('mesero', $this->Mesero->find('first', $options));
+	}
 
-    public function editar($id = null)
-    {
-        if (!$id) {
-          throw new NotFoundException('Datos Invalidos');
-        }
+/**
+ * add method
+ *
+ * @return void
+ */
+	public function add() {
+		if ($this->request->is('post')) {
+			$this->Mesero->create();
+			if ($this->Mesero->save($this->request->data)) {
+				$this->Session->setFlash('The mesero has been saved.', 'default', array('class' => 'alert alert-success'));
+				return $this->redirect(array('action' => 'index'));
+			} else {
+				$this->Session->setFlash('The mesero could not be saved. Please, try again.', 'default', array('class' => 'alert alert-danger'));
+			}
+		}
+	}
 
-        $mesero = $this->Mesero->findById($id);
-        if (!$mesero) {
-          throw new NotFoundException('El mesero no existe');
-        }
-        if($this->request->is(array('post','put')))
-        {
-            $this->Mesero->id = $id;
-            if($this->Mesero->save($this->request->data))
-            {
-                $this->Flash->success('El mesero ha sido modificado');
-                return $this->redirect(array('action'=> 'index'));
-            }
-            $this->Flash->error('El registro no pudo ser modificado');
-        }
-        if (!$this->request->data)
-        {
-            $this->request->data = $mesero;
-        }
-    }
+/**
+ * edit method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function edit($id = null) {
+		if (!$this->Mesero->exists($id)) {
+			throw new NotFoundException(__('Invalid mesero'));
+		}
+		if ($this->request->is(array('post', 'put'))) {
+			if ($this->Mesero->save($this->request->data)) {
+				$this->Session->setFlash('The mesero has been saved.', 'default', array('class' => 'alert alert-success'));
+				return $this->redirect(array('action' => 'index'));
+			} else {
+				$this->Session->setFlash('The mesero could not be saved. Please, try again.', 'default', array('class' => 'alert alert-danger'));
+			}
+		} else {
+			$options = array('conditions' => array('Mesero.' . $this->Mesero->primaryKey => $id));
+			$this->request->data = $this->Mesero->find('first', $options);
+		}
+	}
 
-    public function eliminar($id)
-    {
-        if($this->request->is('get'))
-        {
-            throw new MethodNotAllowedException('INCORRECTO');
-        }
-        if($this->Mesero->delete($id))
-        {
-            $this->Flash->success('El mesero ha sido eliminado');
-            return $this->redirect(array('action' => 'index'));
-        }
-    }
-
+/**
+ * delete method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function delete($id = null) {
+		$this->Mesero->id = $id;
+		if (!$this->Mesero->exists()) {
+			throw new NotFoundException(__('Invalid mesero'));
+		}
+		$this->request->allowMethod('post', 'delete');
+		if ($this->Mesero->delete()) {
+			$this->Session->setFlash('The mesero has been deleted.', 'default', array('class' => 'alert alert-success'));
+		} else {
+			$this->Session->setFlash('The mesero could not be deleted. Please, try again.', 'default', array('class' => 'alert alert-danger'));
+		}
+		return $this->redirect(array('action' => 'index'));
+	}
 }
-
-?>

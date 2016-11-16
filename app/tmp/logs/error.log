@@ -2375,3 +2375,43 @@ Request URL: /cakephpv2/css/bootstrap.min.css.map
 Stack Trace:
 #0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-11-15 15:23:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-15 15:23:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-16 17:23:15 Error: [MissingActionException] Action CocinerosController::nuevo() could not be found.
+Exception Attributes: array (
+  'controller' => 'CocinerosController',
+  'action' => 'nuevo',
+)
+Request URL: /cakephpv2/cocineros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CocinerosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-16 17:23:19 Error: [MissingActionException] Action CocinerosController::nuevo() could not be found.
+Exception Attributes: array (
+  'controller' => 'CocinerosController',
+  'action' => 'nuevo',
+)
+Request URL: /cakephpv2/cocineros/nuevo
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CocinerosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

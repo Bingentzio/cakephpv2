@@ -15,9 +15,17 @@
 				<p>
 				<?php echo $this->Form->end(array('label' => 'Crear Mesero', 'class' =>'btn btn-success')); ?>
 				</p>
-
-				<?php echo $this->Html->link(__('List Meseros'), array('action' => 'index')); ?></li>
-
+			<div class="btn-group">
+			  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			    <?php echo __('Actions'); ?> <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu" role="menu">
+				<li><?php echo $this->Html->link(__('List Meseros'), array('action' => 'index')); ?></li>
+			    <li class="divider"></li>
+			    <li><?php echo $this->Html->link(__('List Mesas'), array('controller' => 'mesas', 'action' => 'index')); ?></li>
+			    <li><?php echo $this->Html->link(__('New Mesa'), array('controller' => 'mesas', 'action' => 'add')); ?></li>
+			  </ul>
 			</div>
 		</div>
 	</div>
+</div>

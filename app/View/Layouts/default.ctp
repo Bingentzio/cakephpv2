@@ -28,8 +28,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css(array('style','bootstrap.min','bootstrap-theme.min'));
-		echo $this->Html->script(array('jquery.min','bootstrap.min','docs.min'));
+		echo $this->Html->css(array('style.css' ,'bootstrap.min', 'bootstrap-theme.min'));
+		echo $this->Html->script(array('jquery.min', 'docs.min', 'bootstrap.min'));
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -40,24 +40,11 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 	<?php echo $this->element('menu'); ?>
 
-	<div class="container theme-showcase" role="main">
+    <div class="container theme-showcase" role="main">
 
-		<?php echo $this->Flash->render(); ?>
+			<?php echo $this->Session->flash(); ?>
 
-   		<?php echo $this->fetch('content'); ?>
-
-   		<div id="footer">
-		  <?php echo $this->Html->link(
-				  $this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-				  'http://www.cakephp.org/',
-				  array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
-			  );
-		  ?>
-		  <p>
-			  <?php echo $cakeVersion; ?>
-		  </p>
-	  	</div>
-   </div>
-
+			<?php echo $this->fetch('content'); ?>
+    </div>
 </body>
 </html>

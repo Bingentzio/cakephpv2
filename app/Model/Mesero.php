@@ -1,46 +1,104 @@
 <?php
+App::uses('AppModel', 'Model');
+/**
+ * Mesero Model
+ *
+ * @property Mesa $Mesa
+ */
+class Mesero extends AppModel {
 
-class Mesero extends AppModel
-{
-    public $virtualFields = array('nombre_completo' => 'CONCAT(Mesero.nombre," ",Mesero.apellido)');
+/**
+ * Display field
+ *
+ * @var string
+ */
+	public $displayField = 'nombre';
 
-    public $validate = array(
-        'dni' => array(
-                'notEmpty' => array(
-                        'rule' => 'notBlank'
-                    ),
-                'unique' => array(
-                        'rule' => 'isUnique',
-                        'message' => 'El DNI ya se encuentra en nuestra base de datos'
-                    )
-                ),
-        'nombre' => array(
-                'rule' => 'notBlank'
-        ),
-        'apellido' => array(
-                'rule' => 'notBlank'
-        ),
-        'telefono' => array(
-                'notEmpty' => array(
-                        'rule' => 'notBlank'
-                    ),
-                'numeric' => array(
-                        'rule' => 'numeric',
-                        'message' => 'Solo números'
-                )
-        ),
-    );
+/**
+ * Validation rules
+ *
+ * @var array
+ */
+	public $validate = array(
+		'dni' => array(
+			'notEmpty' => array(
+				'rule' => array('notEmpty'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'nombre' => array(
+			'notEmpty' => array(
+				'rule' => array('notEmpty'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'apellido' => array(
+			'notEmpty' => array(
+				'rule' => array('notEmpty'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'telefono' => array(
+			'notEmpty' => array(
+				'rule' => array('notEmpty'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+	);
 
-    public $hasMany = array(
-            'Mesa' => array(
-                'className' =>'Mesa',
-                'foreignKey' => 'mesero_id',
-                'conditions' =>'',
-                'order' => 'Mesa.serie ASC',
-                'depend'=> false
-            )
-    );
+	//The Associations below have been created with all possible keys, those that are not needed can be removed
+
+/**
+ * hasMany associations
+ *
+ * @var array
+ */
+	public $hasMany = array(
+		'Mesa' => array(
+			'className' => 'Mesa',
+			'foreignKey' => 'mesero_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		)
+	);
 
 }
-
-?>
