@@ -17,14 +17,20 @@ body {
   width: auto;
 }
 
-.error-message{
-    color:red;
+.error-message {
+	color:red;
 }
 
-.activo{
-    color:orange;
+.oculto {
+	display: none;
 }
-
-.oculto{
-    display: none;
+.platillo img{
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+}
+.food-category {
+	color: #333333;
+}
+.food-category:hover{
+	color: #333333;
 }

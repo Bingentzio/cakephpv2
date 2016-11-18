@@ -2415,3 +2415,465 @@ Stack Trace:
 #1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CocinerosController), Object(CakeRequest))
 #2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-11-18 11:05:04 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/thumb_
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:26:39 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/thumb_
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:27:45 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/thumb_
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:31:44 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/thumb_
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:31:44 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/4/thumb_salad.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:31:55 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/thumb_
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:31:55 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/4/thumb_salad.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:33:15 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/thumb_
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:33:15 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/4/thumb_salad.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:34:22 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/thumb_
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:34:22 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/4/thumb_salad.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:55:53 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/thumb_
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:55:53 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/4/thumb_salad.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:57:38 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/thumb_
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:57:38 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/4/thumb_salad.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 11:58:19 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/thumb_
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:02:41 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/files/platillo/foto/thumb_
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:04:28 Error: [MissingControllerException] Controller class FotController could not be found.
+Exception Attributes: array (
+  'class' => 'FotController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/fot
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:04:31 Error: [MissingControllerException] Controller class FotoController could not be found.
+Exception Attributes: array (
+  'class' => 'FotoController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/foto
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:04:37 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/webroot
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:04:59 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /cakephpv2/app/webroot/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-11-18 12:18:04 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\cakephpv2\app\View\Platillos\add.ctp, line 11]
+2016-11-18 12:18:04 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephpv2/platillos/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\cakephpv2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-11-18 12:29:48 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:29:49 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:29:49 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:30:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:30:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:30:59 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:12 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:23 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:23 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:31:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:33:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:33:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:49:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:49:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:50:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:50:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:51:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap-theme.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-11-18 12:51:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephpv2/css/bootstrap.min.css.map
+Stack Trace:
+#0 C:\xampp\htdocs\cakephpv2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

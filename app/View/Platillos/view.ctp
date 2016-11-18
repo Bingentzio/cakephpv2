@@ -1,61 +1,63 @@
-<div class="well">
-<h2><?php echo __('Platillo'); ?></h2>
-	<dl>
-		<dt><?php echo __('Id'); ?></dt>
-		<dd>
-			<?php echo h($platillo['Platillo']['id']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Nombre'); ?></dt>
-		<dd>
-			<?php echo h($platillo['Platillo']['nombre']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Descripcion'); ?></dt>
-		<dd>
-			<?php echo h($platillo['Platillo']['descripcion']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Precio'); ?></dt>
-		<dd>
-			<?php echo h($platillo['Platillo']['precio']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Created'); ?></dt>
-		<dd>
-			<?php echo h($platillo['Platillo']['created']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Modified'); ?></dt>
-		<dd>
-			<?php echo h($platillo['Platillo']['modified']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Categoria Platillo'); ?></dt>
-		<dd>
-			<?php echo $this->Html->link($platillo['CategoriaPlatillo']['categoria'], array('controller' => 'categoria_platillos', 'action' => 'view', $platillo['CategoriaPlatillo']['id'])); ?>
-			&nbsp;
-		</dd>
-	</dl>
+<h1><?php echo $platillo['Platillo']['nombre']; ?></h1>
+
+<div class="row">
+
+	<div class="col col-sm-7">
+			<?php echo $this->Html->image('../files/platillo/foto/' . $platillo['Platillo']['foto_dir'] . '/' . 'vga_' .$platillo['Platillo']['foto'], array('class' => 'img-thumbnail img-responsive')); ?>
+	</div>
+
+	<div class="col col-sm-5">
+
+		<strong><?php echo $platillo['Platillo']['nombre']; ?></strong>
+
+		<br />
+		<br />
+
+		Descripción: <?php echo h($platillo['Platillo']['descripcion']); ?>
+
+		<br />
+		<br />
+
+		$ <span id="productprice"><?php echo h($platillo['Platillo']['precio']); ?></span>
+
+		<br />
+		<br />
+
+		Creado: <?php echo $platillo['Platillo']['created']; ?>
+
+		<br />
+		<br />
+
+		Modificado: <?php echo $platillo['Platillo']['modified']; ?>
+		<br />
+		<br />
+
+		Categoría: <?php echo $this->Html->link($platillo['CategoriaPlatillo']['categoria'], array('controller' => 'categoria_platillos', 'action' => 'view', $platillo['CategoriaPlatillo']['id'])); ?>
+		<br />
+		<br />
+		<div class="btn-group">
+		  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+		    <?php echo __('Actions'); ?> <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" role="menu">
+			<li><?php echo $this->Html->link(__('Edit Platillo'), array('action' => 'edit', $platillo['Platillo']['id'])); ?> </li>
+			<li><?php echo $this->Form->postLink(__('Delete Platillo'), array('action' => 'delete', $platillo['Platillo']['id']), array(), __('Are you sure you want to delete # %s?', $platillo['Platillo']['id'])); ?> </li>
+			<li><?php echo $this->Html->link(__('List Platillos'), array('action' => 'index')); ?> </li>
+			<li><?php echo $this->Html->link(__('New Platillo'), array('action' => 'add')); ?> </li>
+		    <li class="divider"></li>
+			<li><?php echo $this->Html->link(__('List Categoria Platillos'), array('controller' => 'categoria_platillos', 'action' => 'index')); ?> </li>
+			<li><?php echo $this->Html->link(__('New Categoria Platillo'), array('controller' => 'categoria_platillos', 'action' => 'add')); ?> </li>
+		    <li class="divider"></li>
+			<li><?php echo $this->Html->link(__('List Cocineros'), array('controller' => 'cocineros', 'action' => 'index')); ?> </li>
+			<li><?php echo $this->Html->link(__('New Cocinero'), array('controller' => 'cocineros', 'action' => 'add')); ?> </li>
+		  </ul>
+		</div>
+
+	</div>
+
 </div>
 
-<div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    <?php echo __('Actions'); ?> <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-	<li><?php echo $this->Html->link(__('Edit Platillo'), array('action' => 'edit', $platillo['Platillo']['id'])); ?> </li>
-	<li><?php echo $this->Form->postLink(__('Delete Platillo'), array('action' => 'delete', $platillo['Platillo']['id']), array(), __('Are you sure you want to delete # %s?', $platillo['Platillo']['id'])); ?> </li>
-	<li><?php echo $this->Html->link(__('List Platillos'), array('action' => 'index')); ?> </li>
-	<li><?php echo $this->Html->link(__('New Platillo'), array('action' => 'add')); ?> </li>
-    <li class="divider"></li>
-	<li><?php echo $this->Html->link(__('List Categoria Platillos'), array('controller' => 'categoria_platillos', 'action' => 'index')); ?> </li>
-	<li><?php echo $this->Html->link(__('New Categoria Platillo'), array('controller' => 'categoria_platillos', 'action' => 'add')); ?> </li>
-    <li class="divider"></li>
-	<li><?php echo $this->Html->link(__('List Cocineros'), array('controller' => 'cocineros', 'action' => 'index')); ?> </li>
-	<li><?php echo $this->Html->link(__('New Cocinero'), array('controller' => 'cocineros', 'action' => 'add')); ?> </li>
-  </ul>
-</div>
+
 
 <div class="related">
 	<h3><?php echo __('Related Cocineros'); ?></h3>
